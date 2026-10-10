@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06132b">
+
+  <title>IPL Cricket Zone | Match Analysis</title>
+  <meta name="description" content="IPL cricket match previews, team updates and cricket analysis.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #061020;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(100% - 28px, 950px);
+      margin: auto;
+    }
+
+    header {
+      padding: 18px 0;
+      background: #030916;
+      border-bottom: 1px solid #cda52c;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      color: #ffca36;
+      font-weight: 900;
+      font-size: 21px;
+    }
+
+    .live {
+      color: #b9ff62;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 25px 0 35px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at top, #123b75 0%, #061020 65%);
+    }
+
+    .banner {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 650px;
+      object-fit: contain;
+      border: 1px solid #d7ae38;
+      border-radius: 15px;
+      margin: 0 auto 25px;
+    }
+
+    .eyebrow {
+      color: #ffcd43;
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 7vw, 56px);
+      line-height: 1.1;
+      margin: 12px 0;
+      font-weight: 900;
+    }
+
+    h1 span {
+      color: #ffca36;
+    }
+
+    .intro {
+      color: #d1d9e8;
+      max-width: 620px;
+      margin: 15px auto 22px;
+    }
+
+    .join-btn {
+      display: inline-block;
+      background: #29df25;
+      color: #061020;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 9px;
+      font-size: 17px;
+      font-weight: 900;
+      box-shadow: 0 5px 20px #29df2530;
+      transition: .2s;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-2px);
+      background: #68ff50;
+    }
+
+    .section {
+      padding: 35px 0;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 27px;
+      margin-bottom: 8px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #aebbd0;
+      margin-bottom: 23px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .feature {
+      background: #101f36;
+      border: 1px solid #243958;
+      padding: 22px 14px;
+      border-radius: 13px;
+      text-align: center;
+    }
+
+    .feature .emoji {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .feature h3 {
+      color: #ffca36;
+      font-size: 17px;
+      margin-bottom: 7px;
+    }
+
+    .feature p {
+      color: #c3cede;
+      font-size: 14px;
+    }
+
+    .telegram {
+      text-align: center;
+      padding: 30px 20px;
+      background: linear-gradient(135deg, #102b4c, #10182a);
+      border: 1px solid #cba63d;
+      border-radius: 15px;
+    }
+
+    .telegram h2 {
+      color: #ffca36;
+      margin-bottom: 10px;
+    }
+
+    .telegram p {
+      color: #d1d9e8;
+      margin-bottom: 20px;
+    }
+
+    .disclaimer {
+      color: #aab5c6;
+      font-size: 12px;
+      margin-top: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px 12px;
+      color: #9eacc1;
+      font-size: 12px;
+      border-top: 1px solid #233149;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .feature {
+        padding: 18px;
+      }
+
+      .hero {
+        padding-top: 18px;
+      }
+
+      .join-btn {
+        width: 100%;
+        max-width: 360px;
+      }
+
+      .brand {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">🏏 IPL CRICKET ZONE</div>
+      <div class="live">● CRICKET UPDATES</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+
+        <!-- Apni image ka naam banner.jpg rakhein -->
+        <img
+          class="banner"
+          src="banner.jpg"
+          alt="IPL cricket match analysis banner"
+        >
+
+        <div class="eyebrow">CRICKET • TEAMS • MATCH UPDATES</div>
+
+        <h1>
+          IPL MATCH<br>
+          <span>ANALYSIS 2026</span>
+        </h1>
+
+        <p class="intro">
+          Match previews, team updates, pitch information aur
+          cricket analysis ke liye hamare Telegram channel se judein.
+        </p>
+
+        <a
+          class="join-btn"
+          href="https://t.me/YourChannelLink"
+          target="_blank"
+          rel="noopener noreferrer">
+          ✈ JOIN TELEGRAM CHANNEL
+        </a>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>What You'll Get</h2>
+        <p class="section-subtitle">
+          Cricket information aur match analysis ek hi jagah.
+        </p>
+
+        <div class="features">
+
+          <div class="feature">
+            <div class="emoji">🏏</div>
+            <h3>Match Preview</h3>
+            <p>Upcoming matches aur team performance ka overview.</p>
+          </div>
+
+          <div class="feature">
+            <div class="emoji">📊</div>
+            <h3>Team Analysis</h3>
+            <p>Team form, player statistics aur available match data.</p>
+          </div>
+
+          <div class="feature">
+            <div class="emoji">🔔</div>
+            <h3>Cricket Updates</h3>
+            <p>Match-related news aur important cricket updates.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="telegram">
+          <h2>Join Our Telegram Channel</h2>
+          <p>
+            Cricket previews aur updates paane ke liye
+            channel visit karein.
+          </p>
+
+          <a
+            class="join-btn"
+            href="https://t.me/YourChannelLink"
+            target="_blank"
+            rel="noopener noreferrer">
+            JOIN CHANNEL NOW →
+          </a>
+
+          <p class="disclaimer">
+            Cricket analysis sirf information aur entertainment ke liye hai.
+            Koi guaranteed result ya profit nahi diya jata.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      IPL Cricket Zone • Independent cricket information page.
+      Not affiliated with the official IPL.
+    </div>
+  </footer>
+
+</body>
+</html>
